@@ -98,8 +98,9 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+  </dependencies>
 
-	   <distributionManagement>
+   <distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
@@ -115,8 +116,6 @@
 	    
 	</distributionManagement>
 	
-	  
-  </dependencies>
 
    <profiles>
         <profile>
