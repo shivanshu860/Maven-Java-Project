@@ -19,7 +19,9 @@
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-	 	<sonar.host.url>http://localhost:9000/</sonar.host.url>
+	 	<sonar.host.url>http://15.206.151.92:9980/</sonar.host.url>
+	        <sonar.login>admin</sonar.login>
+		<sonar.password>admin@123</sonar.password>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -105,8 +107,10 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <sonar.host.url>http://localhost:9000/</sonar.host.url>
-     <sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>
+                <sonar.host.url>http://http://15.206.151.92:9980/</sonar.host.url>
+     <sonar-maven-plugin.version>3.3.0.603</sonar-maven-plugin.version>	    
+	        <sonar.login>admin</sonar.login>
+		<sonar.password>admin@123</sonar.password>
             </properties>
             <build>
               <plugins>
