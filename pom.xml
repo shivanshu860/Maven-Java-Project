@@ -98,6 +98,24 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+
+	   <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>admin</name>
+	      <url>http://3.110.84.154:8081/repository/demo-project/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>admin</name>
+	      <url>http://3.110.84.154:8081/repository/demo-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+	
+	  
   </dependencies>
 
    <profiles>
